@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+            </objects>
+        </scene>
+        <!--Payment View Controller-->
+        <scene sceneID="bjO-w2-N09">
+            <objects>
+                <viewController storyboardIdentifier="PaymentViewController" id="tZa-RG-fK4" customClass="PaymentViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vi3-Af-oIy"/>
+                        <viewControllerLayoutGuide type="bottom" id="omE-cP-R4l"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vgx-vF-Yd1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment # 12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Glq-e5-LHw">
+                                <rect key="frame" x="89" y="314" width="198" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16078431369999999" green="0.74509803919999995" blue="0.63529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Glq-e5-LHw" firstAttribute="centerX" secondItem="vgx-vF-Yd1" secondAttribute="centerX" id="D6L-Md-X1E"/>
+                            <constraint firstItem="Glq-e5-LHw" firstAttribute="centerY" secondItem="vgx-vF-Yd1" secondAttribute="centerY" id="aQO-oG-Y9u"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="numberLabel" destination="Glq-e5-LHw" id="FBB-aN-8ew"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gsy-hf-9CC" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-343" y="818"/>
+        </scene>
+        <!--Item Details View Controller-->
+        <scene sceneID="Z3m-nS-Ur3">
+            <objects>
+                <viewController storyboardIdentifier="ItemDetailsViewController" id="IVI-xJ-AOn" customClass="ItemDetailsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0p3-nh-ppr"/>
+                        <viewControllerLayoutGuide type="bottom" id="4ES-G0-wQd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7aQ-kt-8Vx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Details # 12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W3R-Mn-daO">
+                                <rect key="frame" x="67" y="314" width="242" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="textColor" red="0.16078431369999999" green="0.74509803919999995" blue="0.63529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="W3R-Mn-daO" firstAttribute="centerX" secondItem="7aQ-kt-8Vx" secondAttribute="centerX" id="ORj-0w-nBs"/>
+                            <constraint firstItem="W3R-Mn-daO" firstAttribute="centerY" secondItem="7aQ-kt-8Vx" secondAttribute="centerY" id="yqA-pe-Zwg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="itemNumberLabel" destination="W3R-Mn-daO" id="DKq-EN-2Dh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EWj-TJ-WBD" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="508" y="838"/>
+        </scene>
+    </scenes>
+</document>

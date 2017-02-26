@@ -1,0 +1,12 @@
+PODS:
+  - Pushbots (2.0.4)
+
+DEPENDENCIES:
+  - Pushbots (~> 2.0.4)
+
+SPEC CHECKSUMS:
+  Pushbots: bfad6adb35765289c59c88f6eb3cbbb839d0eecc
+
+PODFILE CHECKSUM: f6d70b7d0d12c795dac4236c059521f6fd9e2a77
+
+COCOAPODS: 1.1.1
